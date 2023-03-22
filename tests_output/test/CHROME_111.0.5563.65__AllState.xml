@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test.AllState"
+    errors="0" failures="1" hostname="" id="" package="AllState" skipped="0"
+    tests="2" time="11.88" timestamp="">
+  
+    <testcase name="Customer can select auto for a quote" classname="test.AllState" time="5.444" assertions="0">
+    </testcase>
+  
+    <testcase name="Customer can specify the zip code for quote" classname="test.AllState" time="6.437" assertions="2">
+
+      <failure message="Testing if element &lt;#zipCodeInputEl&gt; contains text &#39;77083&#39; in 5000ms - expected &#34;contains text &#39;77083&#39;&#34; but got: &#34;element could not be located&#34; (5206ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\Mr. Rouf\Documents\demo2\test\AllState.js:11:20)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
